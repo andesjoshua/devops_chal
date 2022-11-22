@@ -6,4 +6,6 @@ RUN apk add openssh-client
 
 RUN python3 -m pip install ansible
 
+RUN yum -y install
+
 RUN ansible-galaxy collection install community.docker
