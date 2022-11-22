@@ -1,0 +1,4 @@
+{
+    "name" : "httpd-with-ansible",
+    "build" : {"dockerfile": "httpd-with-ansible"} 
+}
